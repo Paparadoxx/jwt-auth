@@ -1,10 +1,11 @@
-import React from 'react';
+import React,{FC} from 'react';
+import { LoginForm } from './components/LoginForm';
 
 
-function App() {
+const  App: FC = () => {
   return (
-    <div className="App">
-     
+    <div>
+      <LoginForm/>
     </div>
   );
 }
