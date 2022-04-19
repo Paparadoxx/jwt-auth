@@ -13,6 +13,7 @@ export const Context  = createContext<State>({
   store,
 });
 
+
 ReactDOM.render(
   <React.StrictMode>
     <Context.Provider value={{
